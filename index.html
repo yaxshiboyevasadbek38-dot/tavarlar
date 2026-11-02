@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Krossovka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2>SPORT SHOP</h2>
+
+        <div class="nav-actions">
+            <button id="themeBtn" title="Dark/Light">🌙</button>
+
+            <button id="cartBtn" title="Savatcha">
+                🛒 <span id="cartCount">0</span>
+            </button>
+
+            <button id="navLike" title="Yoqtirganlar">❤️</button>
+        </div>
+    </nav>
+
+    <!-- Product -->
+    <main class="container">
+
+        <div class="product-card">
+
+            <button class="favorite" id="likeBtn">♡</button>
+
+            <div class="product-image">
+                <img src="shoe.png" alt="Sport krossovka">
+            </div>
+
+            <h1>Sport krossovka</h1>
+
+            <h2 class="price">120000 so'm</h2>
+
+            <div class="product-controls">
+
+                <button id="minus">−</button>
+
+                <span id="quantity">1</span>
+
+                <button id="plus">+</button>
+
+            </div>
+
+            <h3 class="total">
+                Jami: <span id="totalPrice">120000</span> so'm
+            </h3>
+
+            <button class="add-cart" id="addCart">
+                Savatchaga qo'shish 🛒
+            </button>
+
+        </div>
+
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
